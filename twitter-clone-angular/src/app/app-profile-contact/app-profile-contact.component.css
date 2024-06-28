@@ -1,0 +1,15 @@
+.profilecontact {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .profilecontact > img {
+    max-width: 100px;
+  }
+  
+  .bgp {
+    margin-top: -50px;
+  }
+  

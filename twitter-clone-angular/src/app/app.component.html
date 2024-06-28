@@ -1,0 +1,13 @@
+<app-nav></app-nav>
+<img src="https://twitter-signals-7iou.vercel.app/assets/background.jpg" alt="" class="bg">
+<main>
+  <section>
+    <app-profile-contact [user]="selectedUser"></app-profile-contact>
+    <div class="content">
+      <div class="postcards">
+        <app-post-card *ngFor="let post of userPosts" [user]="selectedUser" [post]="post"></app-post-card>
+      </div>
+      <app-comments-display [comments]="userComments"></app-comments-display>
+    </div>
+  </section>
+</main>

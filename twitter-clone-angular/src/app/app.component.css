@@ -1,0 +1,16 @@
+.bg {
+    width: 100vw;
+    height: 25vh;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 558px) {
+    .content {
+      flex-direction: column;
+    }
+  }
+  

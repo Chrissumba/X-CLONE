@@ -1,0 +1,14 @@
+<div class="card" *ngIf="user && post">
+    <div class="userdet">
+      <img src="./assets/user3.png" class="profile" alt="User Picture">
+      <p class="username">{ user.username }</p> <!-- Correct interpolation syntax -->
+    </div>
+    <h4 class="posttitle">{{ post.title }}</h4>
+    <p class="words">{"@" post.body }</p>
+    <div class="stats">
+      <p><ion-icon name="heart" class="thumbs-up"></ion-icon>200</p>
+      <p><ion-icon class="chatbubble" name="chatbubble-outline"></ion-icon>200</p>
+      <p><ion-icon class="sync" name="sync"></ion-icon>200</p>
+    </div>
+  </div>
+  
